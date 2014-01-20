@@ -1,0 +1,16 @@
+<!-- Indices written at Fri, 17 Jan 2014 18:07:19 EET -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Data" ancestor="true" source="auto">
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="Data" ancestor="true" source="auto">
+        <property name="extraKey" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
