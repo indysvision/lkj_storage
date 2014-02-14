@@ -5,13 +5,22 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
+		<servlet-name>phrase</servlet-name>
+		<servlet-class>com.indyvision.phrasefrenzy.PhraseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>phrase</servlet-name>
+		<url-pattern>/phrase_classic</url-pattern>
+	</servlet-mapping>
+	<servlet>
 		<servlet-name>Test_storage1</servlet-name>
-		<servlet-class>com.indyvision.storagetest1.Test_storage1Servlet</servlet-class>
+		<servlet-class>com.indyvision.phrasefrenzy.Test_storage1Servlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Test_storage1</servlet-name>
-		<url-pattern>/test_storage1</url-pattern>
+		<url-pattern>/storage</url-pattern>
 	</servlet-mapping>
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>

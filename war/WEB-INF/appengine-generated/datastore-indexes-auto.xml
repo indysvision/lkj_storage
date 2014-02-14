@@ -1,16 +1,17 @@
-<!-- Indices written at Fri, 17 Jan 2014 18:07:19 EET -->
+<!-- Indices written at Fri, 14 Feb 2014 11:22:48 EET -->
 
 <datastore-indexes>
 
-    <!-- Used 1 time in query history -->
+    <!-- Used 9 times in query history -->
     <datastore-index kind="Data" ancestor="true" source="auto">
-        <property name="date" direction="desc"/>
+        <property name="type" direction="asc"/>
+        <property name="rand_id" direction="desc"/>
     </datastore-index>
 
-    <!-- Used 4 times in query history -->
+    <!-- Used 2 times in query history -->
     <datastore-index kind="Data" ancestor="true" source="auto">
-        <property name="extraKey" direction="asc"/>
-        <property name="date" direction="desc"/>
+        <property name="type" direction="asc"/>
+        <property name="rand_id" direction="asc"/>
     </datastore-index>
 
 </datastore-indexes>
